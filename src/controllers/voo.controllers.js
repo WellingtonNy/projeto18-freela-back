@@ -2,7 +2,7 @@ import { db } from '../database/database.connection.js';
 
 
 export async function getVoo(req, res) {
-    const {cidade} = req.params.cidade
+    const cidade = req.query.cidade
 
     try {
 
