@@ -2,7 +2,7 @@ import { db } from '../database/database.connection.js';
 
 
 export async function getHotel(req, res) {
-    const cidade = req.query.cidade
+    const {cidade} = req.query
 
     try {
 
