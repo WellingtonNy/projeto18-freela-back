@@ -3,7 +3,7 @@ import { getHotel } from "../controllers/hotel.controllers.js"
 
 const hotelRouter = Router()
 
-hotelRouter.get("/hotel/:cidade", getHotel)
+hotelRouter.get("/hotel", getHotel)
 
 
 export default hotelRouter;
