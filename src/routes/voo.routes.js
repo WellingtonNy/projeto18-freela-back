@@ -5,7 +5,7 @@ import { getVoo } from "../controllers/voo.controllers.js";
 
 const vooRouter = Router()
 
-vooRouter.get("/voo", getVoo)
+vooRouter.get("/voo/:cidade", getVoo)
 
 
 export default vooRouter;
